@@ -388,7 +388,7 @@
   
 /* MEDIA QUERRY PART */
 
-@media (max-width: 991px) {  
+@media (max-width: 1140px) {  
     #header .btn-get-started {
         margin-bottom: 2rem!important
     }
@@ -421,7 +421,7 @@
 
  }
 
- @media (max-width: 991px) and (min-width: 594px) {
+ @media (max-width: 1140px) and (min-width: 594px) {
     .header-img {
         margin-top: 25rem!important;
     }
