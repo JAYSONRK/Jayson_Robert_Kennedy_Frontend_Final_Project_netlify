@@ -445,19 +445,13 @@
         height: 200px;
      }
 
-     .image-place{
-        position:static;
+   .img-fluid .animated {
+        margin-top: 12rem;
       }
  }
 
-@media (max-width: 991px) {
-        .header-img {
-            margin-top: 30vh;
-        } 
-    }
-
  @media (max-width: 375px) {
-    .img-fluid.animated {
+    .img-fluid .animated {
         margin-top: 10vh;
       }
  }
