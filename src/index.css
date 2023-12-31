@@ -259,10 +259,6 @@
 
  /* PROJECT DETAILED */
 
-.card-div {
-        margin: 1rem !important;
-    }
-
  .html-css-project h1 {
     font-weight: 700;
     color: var(--html-css-col);
@@ -290,6 +286,7 @@
  .card {
     box-shadow: 1px 1px 25px 5px #AEB6BF;
     border: 1px solid #808B96;
+    margin: 1rem !important; 
  }
 
  .card-img-top {
