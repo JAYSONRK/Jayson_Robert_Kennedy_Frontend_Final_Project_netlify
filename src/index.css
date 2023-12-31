@@ -451,7 +451,7 @@
  }
 
  @media (max-width: 375px) {
-    .img-fluid .animated {
+    .animated {
         margin-top: 10.5vh;
       }
  }
