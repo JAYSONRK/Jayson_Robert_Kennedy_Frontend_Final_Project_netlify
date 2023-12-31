@@ -447,6 +447,12 @@
         } 
     }
 
+ @media (max-width: 375px) {
+    .img-fluid.animated {
+        margin-top: 10vh;
+      }
+ }
+
  @media (max-width: 370px) {
     .navbar-brand {
         font-size: 1.2rem !important;;
