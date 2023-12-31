@@ -450,6 +450,10 @@
     .animated {
         margin-top: 12rem;
      }
+
+     .img-fluid.animated {
+        max-height: 60vh;
+      }
  }
 
  @media (max-width: 375px) {
