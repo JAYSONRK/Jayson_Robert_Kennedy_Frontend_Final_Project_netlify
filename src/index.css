@@ -444,8 +444,10 @@
      .card-body {
         height: 200px;
      }
+ }
 
-   .animated {
+ @media (max-width: 991px) and (min-width: 594px) {
+    .animated {
         margin-top: 12rem;
      }
  }
