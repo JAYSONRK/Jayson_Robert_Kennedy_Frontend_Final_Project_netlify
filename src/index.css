@@ -107,6 +107,10 @@
     text-align: right;
 }
 
+.header-img .img-fluid {
+    max-height: 80vh;
+}
+
 #header .animated {
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
@@ -422,11 +426,7 @@
  }
 
  @media (max-width: 1140px) and (min-width: 594px) {
-    .header-img {
-        margin-top: 25rem!important;
-    }
-
-     .btn-git {
+   .btn-git {
         padding: 0.15rem 0.6rem;
         font-size: 0.8rem;
     }
@@ -440,6 +440,12 @@
         height: 200px;
      }
  }
+
+@media (max-width: 991px) {
+        .header-img {
+            margin-top: 30vh;
+        } 
+    }
 
  @media (max-width: 370px) {
     .navbar-brand {
