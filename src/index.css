@@ -259,6 +259,10 @@
 
  /* PROJECT DETAILED */
 
+.card-div {
+        margin: 1rem !important;
+    }
+
  .html-css-project h1 {
     font-weight: 700;
     color: var(--html-css-col);
