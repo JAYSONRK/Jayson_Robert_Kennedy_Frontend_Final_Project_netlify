@@ -286,7 +286,7 @@
  .card {
     box-shadow: 1px 1px 25px 5px #AEB6BF;
     border: 1px solid #808B96;
-    margin: 1rem !important; 
+    margin: 1%; 
  }
 
  .card-img-top {
@@ -418,6 +418,10 @@
 
     .btn-go-back:hover {
         color: #fff!important;
+    }
+
+    .card {
+        margin: 0;
     }
 
     .card-div {
