@@ -445,9 +445,9 @@
         height: 200px;
      }
 
-   .img-fluid .animated {
+   .animated {
         margin-top: 12rem;
-      }
+     }
  }
 
  @media (max-width: 375px) {
