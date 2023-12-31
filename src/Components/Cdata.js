@@ -34,7 +34,7 @@ const Cdata = [
     },
     {
         id: 4,
-        title: 'sunnyside agency landing-page main',
+        title: 'sunnyside agency landing page main',
         imgscr: BD,
         js: true,
         api: false,
