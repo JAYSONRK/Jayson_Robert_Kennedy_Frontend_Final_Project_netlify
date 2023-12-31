@@ -444,6 +444,10 @@
      .card-body {
         height: 200px;
      }
+
+     .image-place{
+        position:static;
+      }
  }
 
 @media (max-width: 991px) {
