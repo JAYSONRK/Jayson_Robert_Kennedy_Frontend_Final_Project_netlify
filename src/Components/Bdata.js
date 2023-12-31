@@ -80,7 +80,7 @@ const Bdata = [
     },
     {
         id: 8,
-        title: 'newsletter sign up with success message main',
+        title: 'newsletter sign up with success main',
         imgscr: RH,
         js: true,
         api: false,
