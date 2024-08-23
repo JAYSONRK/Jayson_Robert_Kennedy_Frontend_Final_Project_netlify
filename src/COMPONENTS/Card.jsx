@@ -13,7 +13,7 @@ const Card = (prop) => {
                 {prop.js && <li className="js">JS</li>}
                 {prop.api && <li className="api">API</li>}
                 {prop.react && <li className="css">React</li>}
-                {prop.reactnative  && <li className="css">React Native</li>}
+                {prop.reactnative  && <li className="css">ReactNative</li>}
                 {prop.nodejs && <li className="html">Node.js</li>}
                 {prop.mongodb && <li className="api">MongoDB</li>}
                 {prop.mysql && <li className="js">MySQL</li>}
