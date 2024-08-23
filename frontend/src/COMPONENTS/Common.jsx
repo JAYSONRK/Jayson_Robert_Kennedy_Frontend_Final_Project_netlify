@@ -11,9 +11,24 @@ const Common = (prop) => {
             <div className="row">
               <div className="col-lg-6 col-md-12 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
                 <h1>{prop.greetings} <strong className="brand-name">{prop.brand}</strong></h1>
-                <h2 className="my-3">
-                  {prop.content}<br/>{prop.contenta}
-                </h2>
+                {prop.content ? 
+                <p className="my-3" style={{fontSize: '1.2rem'}}>
+                  {prop.content}
+                </p> :
+                (<div className="my-3" style={{fontSize: '1.1rem'}}>
+                <p>
+                  <span style={{color: '#2E4053', fontWeight:'bold'}}>{prop.headera}&nbsp;</span>{prop.contenta}
+                </p>
+                <p>
+                  <span style={{color: '#2E4053', fontWeight:'bold'}}>{prop.headerb}&nbsp;</span>{prop.contentb}
+                </p>
+                <p>
+                  <span style={{color: '#2E4053', fontWeight:'bold'}}>{prop.headerc}&nbsp;</span>{prop.contentc}
+                </p>
+                <p>
+                  <span style={{color: '#2E4053', fontWeight:'bold'}}>{prop.headerd}&nbsp;</span>{prop.contentd}
+                </p>
+                </div>)}
                 <div className="mt-3">
                   <NavLink to={prop.visit} className="btn-get-started">{prop.btname}</NavLink>
                 </div>

@@ -8,10 +8,15 @@ const Card = (prop) => {
             <div className="card-body">
               <h5 className="card-title text-center">{prop.title}</h5>
               <ul className="lang d-flex justify-content-center align-items-center flex-wrap p-0 my-3">
-                <li className="html">HTML</li>
-                <li className="css">CSS</li>
+                {!prop.nodejs && <li className="html">HTML</li>}
+                {!prop.nodejs && <li className="css">CSS</li>}
                 {prop.js && <li className="js">JS</li>}
                 {prop.api && <li className="api">API</li>}
+                {prop.react && <li className="css">React</li>}
+                {prop.reactnative  && <li className="css">React Native</li>}
+                {prop.nodejs && <li className="html">Node.js</li>}
+                {prop.mongodb && <li className="api">MongoDB</li>}
+                {prop.mysql && <li className="js">MySQL</li>}
               </ul>
               <div className="button-div d-flex justify-content-between align-items-center">
                 <a href={prop.github} className="btn-git">GitHub</a>

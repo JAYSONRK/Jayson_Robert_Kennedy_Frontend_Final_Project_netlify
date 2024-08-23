@@ -1,6 +1,6 @@
 import React from "react";
-import Common from "./Components/Common";
-import HomeImg from "./Images/home.jpg";
+import Common from "../COMPONENTS/Common";
+import HomeImg from "../IMAGES/home.jpg";
 
 const Home = () => {
   return (<>
@@ -8,7 +8,7 @@ const Home = () => {
       imgscr={HomeImg}
       greetings="Hi, I'm" 
       brand="Jayson"
-      content="I like to code things from scratch and enjoy bringing ideas to life in the browser."
+      content="I thrive on coding from scratch, bringing innovative ideas to life across browsers and mobile devices."
       visit= "/projects"
       btname= "Get Started"
     />

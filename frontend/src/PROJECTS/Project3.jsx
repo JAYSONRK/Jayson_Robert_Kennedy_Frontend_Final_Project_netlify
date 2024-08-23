@@ -1,26 +1,28 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Card from "./Components/Card";
-import Bdata from "./Components/Bdata";
+import Card from "../COMPONENTS/Card";
+import Cdata from "../DATA/Cdata";
 
-const Project2 = () => {
+const Project3 = () => {
     return (<>
-        <div className="react my-5">
-            <h1 className="text-center">React Projects</h1>
+        <div className="apps-api my-5">
+            <h1 className="text-center">Mobile Apps <br/> (SME)</h1>
         </div>
         <div className="container-fluid mb-5">
             <div className="row">
                 <div className="col-10 mx-auto">
                     <div className="row gy-4">
-                        {Bdata.map((val) => {
+                        {Cdata.map((val) => {
                             return (<Card
                             key= {val.id}
                                 title= {val.title}
                                 imgscr= {val.imgscr} 
-                                js= {val.js} 
-                                api= {val.api} 
+                                reactnative={val.reactnative}
+                                nodejs = {val.nodejs}
+                                mongodb = {val.mongodb}
+                                mysql = {val.mysql}
                                 github= {val.github} 
-                                visit= {val.visit} 
+                                visit= {val.visit}
                             />)
                         })}
                     </div>
@@ -33,4 +35,4 @@ const Project2 = () => {
     </>)
 }
 
-export default Project2;
+export default Project3;

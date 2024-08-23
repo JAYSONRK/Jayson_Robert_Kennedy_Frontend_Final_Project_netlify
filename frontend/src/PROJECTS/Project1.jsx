@@ -1,18 +1,18 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Card from "./Components/Card";
-import Cdata from "./Components/Cdata";
+import Card from "../COMPONENTS/Card";
+import Adata from "../DATA/Adata";
 
-const Project3 = () => {
+const Project2 = () => {
     return (<>
-        <div className="bootstrap my-5">
-            <h1 className="text-center">Bootstrap Projects</h1>
+        <div className="react my-5">
+            <h1 className="text-center">Static Websites <br/> (Basic)</h1>
         </div>
         <div className="container-fluid mb-5">
             <div className="row">
                 <div className="col-10 mx-auto">
                     <div className="row gy-4">
-                        {Cdata.map((val) => {
+                        {Adata.map((val) => {
                             return (<Card
                             key= {val.id}
                                 title= {val.title}
@@ -33,4 +33,4 @@ const Project3 = () => {
     </>)
 }
 
-export default Project3;
+export default Project2;

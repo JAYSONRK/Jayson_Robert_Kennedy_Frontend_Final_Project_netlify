@@ -1,8 +1,8 @@
 import React from "react";
-import Phone from "./Images/phone-volume-solid.svg";
-import Whatsapp from "./Images/whatsapp.svg";
-import Email from "./Images/envelope-regular.svg";
-import Github from "./Images/github.svg";
+import Phone from "../IMAGES/phone-volume-solid.svg";
+import LinkedIn from "../IMAGES/linkedin.svg";
+import Email from "../IMAGES/envelope-regular.svg";
+import Github from "../IMAGES/github.svg";
 const Contact = () => {
   return (<>
   <div id="contact">
@@ -18,19 +18,25 @@ const Contact = () => {
             <p>8861996992</p>
           </div>
           <div className="ping col-10 col-md-5 col-lg-3 mx-auto my-auto">
-            <img src={Whatsapp} alt="whatsapp"/>
-            <h4 className="my-2">Whatsapp</h4>
-            <p>8095446720</p>
+              <a href="https://www.linkedin.com/in/jayson-robert-kennedy/">
+              <img src={LinkedIn} alt="linkedin"/>
+              <h4 className="my-2">LinkedIn</h4>
+              <p>https://www.linkedin.com/in/jayson-robert-kennedy/</p>
+            </a>
           </div>
           <div className="ping col-10 col-md-5 col-lg-3 mx-auto my-auto">
-            <img src={Email} alt="email"/>
-            <h4 className="my-2">Email</h4>
-            <p><a href="mailto:someone@yoursite.com">jaysonrobert1@gmail.com</a></p>
+            <a href="mailto:jaysonrobert1@gmail.com">
+              <img src={Email} alt="email"/>
+              <h4 className="my-2">Email</h4>
+              <p>jaysonrobert1@gmail.com</p>
+            </a>
           </div>
           <div className="ping col-10 col-md-5 col-lg-3 mx-auto my-auto">
+          <a href="https://github.com/JAYSONRK">
             <img src={Github} alt="github"/>
             <h4 className="my-2">Github</h4>
-            <p><a href="https://github.com/JAYSONRK">https://github.com/JAYSONRK</a></p>
+            <p>https://github.com/JAYSONRK</p>
+          </a>  
           </div>
         </div>
       </div>
